@@ -1,0 +1,27 @@
+{
+  "name": "testTask",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start1": "nodemon --exec babel-node ./src/service1.js",
+    "start2": "nodemon --exec babel-node ./src/service2.js",
+    "start3": "nodemon --exec babel-node ./src/service3.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "body-parser": "^1.19.0",
+    "pg": "^7.12.0",
+    "redis": "^2.8.0",
+    "redis-server": "^1.2.2",
+    "sequelize": "^5.10.3"
+  }
+}
